@@ -5,7 +5,7 @@ import { ContactSection } from '@/components/contact-section'
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Contact Divine Animation Chennai on WhatsApp at +91 93452 20141 for digital marketing, AI ads, website development and computer & mobile repairs.',
+    'Contact Divine Animation Chennai on WhatsApp at +91 90925 58217 for digital marketing, AI ads, website development and computer & mobile repairs.',
   alternates: { canonical: '/contact' },
 }
 
