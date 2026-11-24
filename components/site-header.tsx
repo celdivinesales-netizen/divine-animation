@@ -3,8 +3,8 @@
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useEffect, useState } from 'react'
-import { Menu, X, Phone } from 'lucide-react'
-import { NAV_LINKS, SITE } from '@/lib/site'
+import { Menu, X } from 'lucide-react'
+import { NAV_LINKS } from '@/lib/site'
 import { cn } from '@/lib/utils'
 import { WhatsAppButton } from '@/components/whatsapp-button'
 import { Logo } from '@/components/logo'
@@ -32,15 +32,6 @@ export function SiteHeader() {
         scrolled || open ? 'bg-navy/95 shadow-lg shadow-navy/20 backdrop-blur-md' : 'bg-navy',
       )}
     >
-      <div className="hidden border-b border-white/10 md:block">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 text-xs text-white/70 lg:px-8">
-          <p>Digital Marketing, AI Advertising, Websites &amp; Tech Repairs in Chennai</p>
-          <a href={`tel:${SITE.phoneTel}`} className="flex items-center gap-1.5 font-medium text-white hover:text-brand-orange">
-            <Phone className="size-3.5" aria-hidden="true" />
-            {SITE.phoneDisplay}
-          </a>
-        </div>
-      </div>
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 lg:px-8">
         <Logo />
 

@@ -79,7 +79,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-white/10">
         <p className="mx-auto max-w-7xl px-4 py-5 text-center text-xs text-white/55 lg:px-8">
-          Copyright &copy; 2026 Divine Animation Chennai. All Rights Reserved.
+          Copyright &copy; 2026 Celestine Aloysious. All Rights Reserved.
         </p>
       </div>
     </footer>
