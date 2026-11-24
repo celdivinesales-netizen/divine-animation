@@ -78,9 +78,12 @@ export function SiteFooter() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <p className="mx-auto max-w-7xl px-4 py-5 text-center text-xs text-white/55 lg:px-8">
-          Copyright &copy; 2026 Celestine Aloysious. All Rights Reserved.
-        </p>
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 text-xs text-white/55 sm:flex-row lg:px-8">
+          <p>Copyright &copy; 2026 Celestine Aloysious. All Rights Reserved.</p>
+          <Link href="/privacy-policy" className="transition-colors hover:text-brand-orange focus-visible:text-brand-orange">
+            Privacy Policy
+          </Link>
+        </div>
       </div>
     </footer>
   )
