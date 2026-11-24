@@ -7,6 +7,7 @@ export const SITE = {
   whatsappUrl: 'https://wa.me/919092558217',
   facebookUrl: 'https://www.facebook.com/',
   instagramUrl: 'https://www.instagram.com/',
+  address: '16, 17 Anna Street, Pathuvanchery, Madambakkam, Kancheepuram, Tamil Nadu 600126',
   city: 'Chennai, Tamil Nadu, India',
   url: 'https://divineanimationchennai.com',
 }

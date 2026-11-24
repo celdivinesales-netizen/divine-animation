@@ -47,7 +47,7 @@ export function ContactSection() {
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="flex items-center gap-3 rounded-2xl border bg-card p-5">
                 <MapPin className="size-5 shrink-0 text-brand-orange" aria-hidden="true" />
-                <span className="text-sm font-medium text-navy">{SITE.city}</span>
+                <address className="text-sm font-medium text-navy not-italic">{SITE.address}</address>
               </div>
               <div className="flex items-center gap-3 rounded-2xl border bg-card p-5">
                 <Clock className="size-5 shrink-0 text-brand-orange" aria-hidden="true" />

@@ -72,7 +72,7 @@ export function SiteFooter() {
             </li>
             <li className="flex items-start gap-3">
               <MapPin className="mt-0.5 size-4 shrink-0 text-brand-orange" aria-hidden="true" />
-              <span>{SITE.city}</span>
+              <address className="not-italic">{SITE.address}</address>
             </li>
           </ul>
         </div>
