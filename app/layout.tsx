@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
 import { Inter, Sora } from 'next/font/google'
+import Script from 'next/script'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
 import { WhatsAppFloat } from '@/components/whatsapp-button'
@@ -62,7 +63,9 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} ${sora.variable}`}>
       <head>
         {/* Website tracking */}
-        <script dangerouslySetInnerHTML={{ __html: aisensyTracking }} />
+        <Script id="aisensy-tracking" strategy="afterInteractive">
+          {aisensyTracking}
+        </Script>
       </head>
       <body className="antialiased">
         <a
